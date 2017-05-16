@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99FF99"
+    tools:context="com.example.x.lekcja9.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="10pt"
+        android:text="Hello!"
+        android:textColor="#000000"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="30pt"
+        android:textColor="#000000"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="50pt"
+        android:textColor="#000000"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="70pt"
+        android:textColor="#000000"
+        android:textSize="10pt"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100pt"
+        android:text="Pokaż Lokalizacje"
+        android:id="@+id/start"
+        android:height="26pt"
+        android:width="56pt"/>
+
+</RelativeLayout>
